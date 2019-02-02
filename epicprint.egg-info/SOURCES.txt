@@ -1,0 +1,6 @@
+README.md
+setup.py
+epicprint.egg-info/PKG-INFO
+epicprint.egg-info/SOURCES.txt
+epicprint.egg-info/dependency_links.txt
+epicprint.egg-info/top_level.txt

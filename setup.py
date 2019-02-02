@@ -2,12 +2,12 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-     name='print',  
+     name='epicprint',  
      version='0.1',
      author="Anders Jürisoo",
      author_email="jurisoo@hotmail.com",
      description="Custom print with superpowers",
-     url="https://github.com/ajthinking/print",
+     url="https://github.com/ajthinking/epicprint",
      packages=setuptools.find_packages(),
      classifiers=[
          "Programming Language :: Python :: 3",
