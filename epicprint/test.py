@@ -1,8 +1,9 @@
-from Print import Print
+from epicprint.Print import Print
 
 print = Print()
 
 print.info("Welcome").group()
-print.success("Now we can:", ["Indent stuff", "Use colors", "Attach semantic to the print statements"])
-print.warning("Nothing more to say")
+print.success("Now we can").group()
+print.success("Indent stuff").success("Use colors").success("Chain")
+print.ungroup().warning("This is my first package")
 print.reset().fail("Ending with a fail message. Bye.")

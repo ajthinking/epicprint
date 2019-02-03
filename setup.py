@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
      name='epicprint',  
-     version='0.3   ',
+     version='0.4',
      author="Anders Jürisoo",
      author_email="jurisoo@hotmail.com",
      description="Custom print with superpowers",
