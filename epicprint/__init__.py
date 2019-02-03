@@ -1,1 +1,1 @@
-from Print import Print
+from epicprint.Print import Print
