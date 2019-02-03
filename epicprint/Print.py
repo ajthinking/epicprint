@@ -49,7 +49,10 @@ class Print(object):
     def fail(self, *args):
         self.active_color = self.FAIL
         self.print(*args)
-        return self 
+        return self
+
+    def error(self, *args):
+        return self.fail(self, *args) 
 
     def success(self, *args):
         self.active_color = self.SUCCESS
