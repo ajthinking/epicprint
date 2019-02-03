@@ -1,14 +1,17 @@
-import setuptools
+from setuptools import setup, find_packages
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
-setuptools.setup(
+
+setup(
      name='epicprint',  
      version='0.4',
      author="Anders Jürisoo",
      author_email="jurisoo@hotmail.com",
      description="Custom print with superpowers",
+     long_description=long_description,
      url="https://github.com/ajthinking/epicprint",
-     packages=setuptools.find_packages(),
+     packages=find_packages(),
      classifiers=[
          "Programming Language :: Python :: 3",
          "License :: OSI Approved :: MIT License",
