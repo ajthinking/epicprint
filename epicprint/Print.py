@@ -69,7 +69,6 @@ class Print(object):
         return self
 
 if __name__ == '__main__':
-
     # Demo of the class 
     printer = Print()
     printer.group().success("sure")
