@@ -25,10 +25,10 @@ class Print(object):
 
         # Calls the builtin print
         print(
-                self.active_color,
-                self.indentation() + str(args[0]),
-                *args[1:],
-                self.ENDC
+            self.active_color,
+            self.indentation() + str(args[0]),
+            *args[1:],
+            self.ENDC
         )
         self.active_color = self.ENDC
         return self
